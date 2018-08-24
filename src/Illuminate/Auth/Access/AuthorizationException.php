@@ -6,5 +6,7 @@ use Exception;
 
 class AuthorizationException extends Exception
 {
-    //
+    public function ErrorOut() {
+        return $this->ErrorOut();
+    }
 }
